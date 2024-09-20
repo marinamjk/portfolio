@@ -190,7 +190,7 @@ footer{
 }
 
 .tablaProyectos{
-    width: 200px;
+    width: 50%;
     margin: 30px auto;
     font-family: Arial, sans-serif;
     border-spacing: 50px 0;
@@ -198,8 +198,9 @@ footer{
 
 .tablaProyectos th, .tablaProyectos td {
     border: 1px solid #ffffff;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
+    width: 100px;
 }
 
 .tablaProyectos th {
