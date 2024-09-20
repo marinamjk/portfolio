@@ -1,0 +1,222 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    scroll-behavior: smooth; /* Habilita desplazamiento suave */
+}
+
+h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    color: rgb(255, 255, 255) ;
+    text-align:left;
+    padding-top: 200px;
+    padding-left: 30px;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.subtitulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    text-align: left;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.5);
+}
+
+h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.5);
+    color: #000000;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+h3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    text-align:justify;
+    line-height: 1.8;
+    letter-spacing: 2;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar {
+    position: fixed; /* Hace que el menú quede fijo */
+    bottom: 0;       /* Cambiado para que el menú esté en la parte inferior */
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1000; /* Asegura que el menú esté por encima de otros elementos */
+  }
+  
+.navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /* Centra los enlaces */
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+  
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: #555; /* Cambia el color de fondo al pasar el cursor */
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.alinear{
+    display: flex;
+    justify-content:center;
+    text-align: center;
+}
+
+.sBlanco{
+    background-color: white;
+}
+
+.sMisProyectos{
+    background-color: #537f9e
+}
+
+.fteBlanco{
+    color: rgb(255, 255, 255);
+}
+
+img{
+    width: 80px;
+    height: auto;
+}
+
+.iconosContacto{
+    width: 40px;
+    height: auto;
+    margin-right: 25px;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    margin:0;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    height: 220px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    box-sizing: border-box;
+}
+
+.fotoPerfil{
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    border:#a34177;
+    border-width: 8px;
+    border-style:solid;
+}
+
+.FondoMovimiento{
+    height: 100 vw;
+    width: 100%;
+    background-position: center;
+    background:linear-gradient(45deg, #41a39e,#4177a3,#9e41a3,#a34177,#ffffff);
+    background-size: 600%;
+    animation: gradientShift 15s ease infinite;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@keyframes gradientShift{
+    0%{
+        background-position: 0%.0%;
+    }
+    50%{
+        background-position: 100%.100%
+    }
+    100%{
+        background-position: 0%.0%;
+    }
+}
+
+.contenedorConocimientos{
+    background-color: rgba(255, 255, 255, 0.75);
+    width: 550px;
+    height: 490px;
+    border-radius: 50px;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.tablaProyectos{
+    width: 200px;
+    margin: 30px auto;
+    font-family: Arial, sans-serif;
+    border-spacing: 50px 0;
+}
+
+.tablaProyectos th, .tablaProyectos td {
+    border: 1px solid #ffffff;
+    padding: 30px;
+    text-align: center;
+}
+
+.tablaProyectos th {
+    background-color: #a34177;
+    color: white;
+}
+
+.tablaProyectos th a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.tablaProyectos td{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.tablaProyectos th:hover {
+    background-color: #a8a8a8;
+}
