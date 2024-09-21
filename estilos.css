@@ -2,7 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    scroll-behavior: smooth; /* Habilita desplazamiento suave */
+    scroll-behavior: smooth;
 }
 
 h1{
@@ -10,7 +10,7 @@ h1{
     font-size: 30px;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     color: rgb(255, 255, 255) ;
-    text-align:left;
+    text-align: left;
     padding-top: 200px;
     padding-left: 30px;
     margin: 0;
@@ -23,6 +23,7 @@ h1{
     text-align: left;
     color: white;
     text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.5);
+    box-sizing: border-box;
 }
 
 h2{
@@ -99,12 +100,6 @@ section{
     box-sizing: border-box;
 }
 
-.alinear{
-    display: flex;
-    justify-content:center;
-    text-align: center;
-}
-
 .sBlanco{
     background-color: white;
 }
@@ -140,10 +135,10 @@ header{
 footer{
     background-color: black;
     text-align: center;
-    height: 600px;
+    height: 100%;
     width: 100%;
     padding-top: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 35px;
     box-sizing: border-box;
 }
 
@@ -157,7 +152,7 @@ footer{
 }
 
 .FondoMovimiento{
-    height: 100 vw;
+    height: 100%;
     width: 100%;
     background-position: center;
     background:linear-gradient(45deg, #41a39e,#4177a3,#9e41a3,#a34177,#ffffff);
@@ -183,9 +178,17 @@ footer{
 .contenedorConocimientos{
     background-color: rgba(255, 255, 255, 0.75);
     width: 550px;
-    height: 490px;
+    height: 100%;
     border-radius: 50px;
-    margin:0;
+    margin: 8px 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.alinear{
+    display: flex;
+    justify-content:center;
+    text-align: center;
     box-sizing: border-box;
 }
 
@@ -224,19 +227,22 @@ footer{
 
 .contenedorFormulario {
     max-width: 600px;
-    margin: 30px auto;
+    margin: 20px auto;
     background-color: #949494;
     padding: 20px;
     box-shadow: 0 0 10px rgba(147, 147, 147, 0.852);
+    box-sizing: border-box;
 }
 
 .form-group {
     margin-bottom: 0px;
+    box-sizing: border-box;
 }
 
 label {
     display: block;
     margin-bottom: 5px;
+    box-sizing: border-box;
 }
 
 input[type="text"], input[type="email"], textarea {
