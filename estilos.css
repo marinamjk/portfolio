@@ -140,7 +140,7 @@ header{
 footer{
     background-color: black;
     text-align: center;
-    height: 220px;
+    height: 100vh;
     width: 100%;
     padding-top: 10px;
     padding-bottom: 100px;
@@ -219,5 +219,54 @@ footer{
 }
 
 .tablaProyectos th:hover {
+    background-color: #a8a8a8;
+}
+
+.contenedorFormulario {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #949494;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(147, 147, 147, 0.852);
+}
+
+.form-group {
+    margin-bottom: 0px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #a34177;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #a34177 ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+button:hover {
     background-color: #a8a8a8;
 }
