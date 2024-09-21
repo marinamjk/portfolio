@@ -15,6 +15,6 @@ async function handleSubmit(event){
 
     if(response.ok){
         this.reset()
-        alert('Gracias por contactarme')
+        alert('Gracias por contactarme, me comunicaré a la brevedad.')
     }
 }
