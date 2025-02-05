@@ -5,17 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Portfolio</title>
     <link rel="stylesheet" href="estilos.css">
-    <script src="codigo.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Charmonman:wght@400;700&display=swap&family=Dosis:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <section class="FondoMovimiento">
+        <section class="FondoMovimiento presentacion">
             <h1>
-                MARINA MOJICA
-                <div class="subtitulo">
-                    |Portfolio Personal
-                </div> 
+                Marina Mojica              
             </h1>
+            <h2 class="subtitulo">Portfolio Personal </h2>
         </section>
        
         <nav class="navbar">
@@ -34,17 +34,20 @@
                  ACERCA DE MI
             </h2>
             <table>
+                <tr>  
                 <td>
                     <img class="fotoPerfil" src="FotoPerfil.jpg" alt="FotoMarina">
                 </td>
                  <td>
-                    <p>
-                        Actualmente estoy cursando el segundo año de la Tecnicatura Universitaria en Programación dictada por la UTN, regional de Pacheco. Previamente a esta carrera, había realizado el curso "Argentina Programa 4.0", dictado por la Universidad de La Punta, que me incentivó a profundizar estos conocimientos. <br>
-                        Durante este trayecto, adquirí las herramientas y la lógica necesaria para poder programar sobre una base sólida y poder aplicarlo en diferentes tipos de software. Para esto, aprendí que es vital la utilización de los lenguajes de programación de forma organizada, eficiente y escalable. <br>
-                        Además de los conocimientos técnicos, a lo largo de este trayecto también he desarrollado habilidades blandas importantes, como el trabajo en equipo, la resolución de problemas y la adaptabilidad a nuevas tecnologías. Por eso mismo, estoy enfocada en seguir profundizando en el desarrollo full stack y empezar mi experiencia laboral en este rubro.
-                    </p>
-                </td>  
-            </table> 
+                    <p>                    
+                    Actualmente estoy cursando el segundo año de la Tecnicatura Universitaria en Programación dictada por la UTN, regional de Pacheco. Previamente a esta carrera, había realizado el curso "Argentina Programa 4.0", dictado por la Universidad de La Punta, que me incentivó a profundizar estos conocimientos. <br>
+                    Durante este trayecto, adquirí las herramientas y la lógica necesaria para poder programar sobre una base sólida y poder aplicarlo en diferentes tipos de software. Para esto, aprendí que es vital la utilización de los lenguajes de programación de forma organizada, eficiente y escalable. <br>
+                    Además de los conocimientos técnicos, a lo largo de este trayecto también he desarrollado habilidades blandas importantes, como el trabajo en equipo, la resolución de problemas y la adaptabilidad a nuevas tecnologías. Por eso mismo, estoy enfocada en seguir profundizando en el desarrollo full stack y empezar mi experiencia laboral en este rubro.
+                    </p>    
+                </td>
+                </tr>           
+            </table>
+            
         </section>
         <section id="Conocimientos" class="alinear FondoMovimiento">
                 <div class="contenedorConocimientos">
@@ -55,27 +58,27 @@
                         Lenguajes de Programación: 
                     </h3>
                     <div>
-                        <img src="cplusplus.png" alt="cplusplus">
-                        <img src="csharp.png" alt="csharp">
-                        <img src="java.png" alt="java">
+                        <img src="cplusplus.png" alt="cplusplus" title="C++">
+                        <img src="csharp.png" alt="csharp" title="C#">
+                        <img src="java.png" alt="java" title="Java">
                     </div>
                     <h3>
                         IDE:
                     </h3>
                     <div>
-                        <img src="vscode.png" alt="vscode">
-                        <img src="vscommunity.png" alt="vscommunity">
-                        <img src="netbeans.png" alt="Netbeans">
-                        <img src="Codeblocks.png" alt="Codeblocks">
+                        <img src="vscode.png" alt="vscode" title="Visual Studio Code">
+                        <img src="vscommunity.png" alt="vscommunity" title="Visual Studio Community">
+                        <img src="netbeans.png" alt="Netbeans" title="Net Beans">
+                        <img src="Codeblocks.png" alt="Codeblocks" title="CodeBlocks">
                     </div>
                     <h3>
                         Otros:
                     </h3>
                     <div>
-                        <img src="github.png" alt="github">
-                        <img src="SQL.png" alt="SQL">
+                        <img src="github.png" alt="github" title="GitHub">
+                        <img src="SQL.png" alt="SQL" title="SQL Server">
                     </div>
-                </div>
+                </div>                      
         </section>
         <section id="MisProyectos" class="sMisProyectos">
                 <h2>
@@ -84,35 +87,43 @@
                 <table class="tablaProyectos">
                     <thead>
                         <tr>
-                            <th><a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">GESTIÓN DE PRODUCTOS</a></th>
-                            <th><a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">CABEZONES</a></th>
+                            <th>GESTIÓN DE PRODUCTOS</th>
+                            <th>CABEZONES</th>
+                            <th>PAGINA WEB</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <td>
-                            Aplicación de escritorio realizada con Winform en C#.
-                        </td>
-                        <td>
-                            Videojuego multijugador de fútbol realizado en C++, junto con las librerías SFML y Box2D y empleando manejo de archivos.
-                        </td>
+                        <tr>
+                            <td>
+                                Aplicación de escritorio realizada con Winform en C#.
+                                <a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">Ver mas...</a>
+                            </td>
+                            <td>
+                                Videojuego multijugador de fútbol realizado en C++, junto con las librerías SFML y Box2D y empleando manejo de archivos.
+                                <a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">Ver mas...</a>
+                            </td>
+                            <td>
+                                Ecommerce realizado con .Net Framework utilizando HTML, CSS, JavaScript y C#.
+                                <a href="https://github.com/marinamjk/TP-Cuatrimestral-Equipo-15B" target="_blank">Ver mas...</a>
+                            </td>
+                        </tr>
                     </tbody>
-                </table>
+                </table>            
         </section>
         <section id="OtrosEstudios" class="sBlanco">
             <h2>
                 OTROS ESTUDIOS
             </h2>
             <p>
-                Soy Profesora en Educación Física, recibida en la Universidad Nacional de Luján con Diploma de Honor. Tengo experiencia een los distintos niveles de enseñanza escolares, así como, en el ámbito no formal. Trabajé principalmente en clubes y polideportivos, donde me especialicé en la enseñanza de natación a grupos
+                Soy Profesora en Educación Física, recibida en la Universidad Nacional de Luján con Diploma de Honor. Tengo experiencia en los distintos niveles de enseñanza escolares, así como, en el ámbito no formal. Trabajé principalmente en clubes y polideportivos, donde me especialicé en la enseñanza de natación a grupos
                 de distintas edades y capacidades. Esto me permitió desarrollar habilidades sociales, manejo de grupos y adaptación a diferentes circunstancias.
             </p>
             <div>
                 <p>
-                    Idiomas: <br>
+                    <span style="text-decoration: underline;">Idiomas:</span> <br>
                     Ingles nivel upper-intermediate.
                 </p>
-            </div>
-            </div>
+            </div>         
         </section>
     </main>
     <footer id="Contacto">
@@ -141,7 +152,8 @@
                     <button type="submit">Enviar</button>
                 </form>
             </div>
-        </form> 
+        </form>     
     </footer>
+    <script src="codigo.js"></script>
 </body>
 </html>
