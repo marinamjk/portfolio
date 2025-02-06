@@ -72,6 +72,15 @@
         width: 90vw;
     }
 
+    table, tbody, tr, td {
+    display: block;
+    width: 100%;
+    }
+    
+    tr {
+        margin-bottom: 10px; /* Espacio entre filas */
+    }
+
     .tablaProyectos{
         border-spacing: 5px 0px;
     }
@@ -125,6 +134,15 @@
     section {
         padding-left: 5px;
         padding-right: 5px;
+    }
+
+    table, tbody, tr, td {
+    display: block;
+    width: 100%;
+    }
+    
+    tr {
+        margin-bottom: 10px; /* Espacio entre filas */
     }
 
     .tablaProyectos{
