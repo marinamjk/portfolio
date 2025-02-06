@@ -21,12 +21,12 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 90%;
+        width: 100%;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 90%;
+        width: 100%;
     }
 
     .fotoPerfil{
@@ -35,10 +35,6 @@
 
     .contenedorConocimientos{
         width: 90%;
-    }
-
-    .columnaenbloque{
-        display: block;
     }
 }
 
@@ -91,16 +87,12 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 80%;
+        width: 100%;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 80%;
-    }
-
-    .columnaenbloque{
-        display: block;
+        width: 100%;
     }
 }
 
@@ -150,7 +142,7 @@
     }
     
     tr {
-        margin-bottom: 10px; /* Espacio entre filas */
+        margin-bottom: 10px; 
     }
 
     .tablaProyectos{
@@ -159,17 +151,14 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 90%;
+        width: 100%;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 90%;
+        width: 100%;
     }
 
-    .columnaenbloque{
-        display: block;
-    }
 }
 
 body, html {
