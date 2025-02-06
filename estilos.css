@@ -50,22 +50,17 @@
 
     .navbar{
         width: auto;
+        height: auto;
     }
 
     .navbar ul {
         flex-direction: column;
         text-align: center;
         overflow: auto;
-        display: none;
     }
 
     .navbar li {
         margin: 0px 0;
-    }
-
-    .menu-btn{
-        width: 100%;
-        visibility: visible;
     }
 
     section {
@@ -121,22 +116,17 @@
 
     .navbar{
         width: auto;
+        height: auto;
     }
     
     .navbar ul {
         flex-direction: column;
         text-align: center;
         overflow: auto;
-        display: none;
     }
 
     .navbar li {
         margin: 0px 0;
-    }
-
-    .menu-btn{
-        width: 100%;
-        visibility: visible;
     }
 
     .contenedorFormulario {
@@ -253,7 +243,6 @@ p{
     bottom: 0;      
     left: 0;
     width: 100%;
-    background-color: #333;
     z-index: 1000;
   }
   
@@ -261,8 +250,10 @@ p{
     margin: 0;
     padding: 0;
     list-style-type: none;
+    width: 100%;
     display: flex;
     justify-content: center;
+    background-color: #333;
 }
 
 .navbar li {
@@ -287,13 +278,16 @@ p{
     font-size: 24px;
     cursor: pointer;
     display: flex;
-    width: 20%;
+    width: 25%;
     justify-content: center;
     visibility: visible;
+    margin: 0px;
+    background-color: #a34177;
 }
 
 .show-menu {
-    display: flex !important;
+    display: none !important;
+    visibility: collapse;
 }
 
 section{
