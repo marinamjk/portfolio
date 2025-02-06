@@ -36,6 +36,10 @@
     .contenedorConocimientos{
         width: 90%;
     }
+
+    col{
+        display: block;
+    }
 }
 
 @media (max-width: 768px) {
@@ -93,6 +97,10 @@
     .tablaProyectos td {
         padding: 10px;
         width: 80%;
+    }
+
+    col{
+        display: block;
     }
 }
 
@@ -157,6 +165,10 @@
     .tablaProyectos td {
         padding: 10px;
         width: 90%;
+    }
+
+    col{
+        display: block;
     }
 }
 
