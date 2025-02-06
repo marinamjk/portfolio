@@ -19,6 +19,16 @@
         border-spacing: 20px 0px;
     }
 
+    .tablaProyectos th{
+        padding: 10px;
+        width: 80%;
+    }
+    
+    .tablaProyectos td {
+        padding: 10px;
+        width: 80%;
+    }
+
     .fotoPerfil{
         width: 150px;
     }
@@ -64,6 +74,16 @@
     .tablaProyectos{
         border-spacing: 5px 0px;
     }
+
+    .tablaProyectos th{
+        padding: 10px;
+        width: 80%;
+    }
+    
+    .tablaProyectos td {
+        padding: 10px;
+        width: 80%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -108,6 +128,16 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
+    }
+
+    .tablaProyectos th{
+        padding: 10px;
+        width: 80%;
+    }
+    
+    .tablaProyectos td {
+        padding: 10px;
+        width: 80%;
     }
 }
 
