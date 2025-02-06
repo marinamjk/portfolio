@@ -18,3 +18,8 @@ async function handleSubmit(event){
         alert('Gracias por contactarme, me comunicaré a la brevedad.')
     }
 }
+
+function toggleMenu() {
+    let menu = document.getElementById("menu");
+    menu.classList.toggle("show-menu");
+}
