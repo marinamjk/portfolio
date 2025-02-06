@@ -21,16 +21,16 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 80%;
+        width: 90%;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 80%;
+        width: 90%;
     }
 
     .fotoPerfil{
-        width: 150px;
+        width: 80vw;
     }
 
     .contenedorConocimientos{
@@ -51,6 +51,7 @@
     .navbar ul {
         flex-direction: column;
         text-align: center;
+        overflow: auto;
     }
 
     .navbar li {
@@ -68,7 +69,7 @@
     }
 
     .fotoPerfil {
-        width: 120px;
+        width: 90vw;
     }
 
     .tablaProyectos{
@@ -114,7 +115,7 @@
     }
 
     .fotoPerfil {
-        width: 100px;
+        width: 90vw;
     }
 
     .contenedorConocimientos {
@@ -132,12 +133,12 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 80%;
+        width: 90%;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 80%;
+        width: 90%;
     }
 }
 
