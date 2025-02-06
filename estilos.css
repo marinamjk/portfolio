@@ -17,6 +17,8 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
+        display: flex;
+        flex-direction: column;
     }
 
     .tablaProyectos th{
@@ -84,6 +86,8 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
+        display: flex;
+        flex-direction: column;
     }
 
     .tablaProyectos th{
