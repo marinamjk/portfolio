@@ -61,7 +61,6 @@
     section {
         padding-left: 5px;
         padding-right: 5px;
-        display: flex;
     }
 
     .contenedorConocimientos {
@@ -84,10 +83,6 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
-    }
-
-    #columnasproyectos{
-        display: block;
     }
 
     .tablaProyectos th{
@@ -139,16 +134,11 @@
     section {
         padding-left: 5px;
         padding-right: 5px;
-        display: flex;
     }
 
     table, tbody, tr, td {
     display: block;
     width: 100%;
-    }
-    
-    #columnasproyectos{
-        display: block;
     }
     
     tr {
