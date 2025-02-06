@@ -61,10 +61,8 @@
         width: 120px;
     }
 
-    .tablaProyectos th,
-    .tablaProyectos td {
-        width: 100%;     
-        text-align: center;
+    .tablaProyectos{
+        border-spacing: 5px 0px;
     }
 }
 
@@ -108,10 +106,8 @@
         padding-right: 5px;
     }
 
-    .tablaProyectos th,
-    .tablaProyectos td {
-        width: 100%;     
-        text-align: center;
+    .tablaProyectos{
+        border-spacing: 5px 0px;
     }
 }
 
