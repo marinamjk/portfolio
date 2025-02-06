@@ -17,8 +17,6 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
-        display: flex;
-        flex-direction: column;
     }
 
     .tablaProyectos th{
@@ -75,7 +73,7 @@
         width: 90vw;
     }
 
-    table, tbody, tr, td {
+    table, tbody, tr, td, col {
     display: block;
     width: 100%;
     }
@@ -86,8 +84,6 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
-        display: flex;
-        flex-direction: column;
     }
 
     .tablaProyectos th{
@@ -142,7 +138,7 @@
         display: flex;
     }
 
-    table, tbody, tr, td {
+    table, tbody, tr, td, col {
     display: block;
     width: 100%;
     }
@@ -153,8 +149,6 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
-        display: flex;
-        flex-direction: column;
     }
 
     .tablaProyectos th{
