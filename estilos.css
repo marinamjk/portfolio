@@ -49,14 +49,19 @@
     }
 
     .navbar ul {
-        display: none;
         flex-direction: column;
         text-align: center;
         overflow: auto;
+        visibility: collapse;
+        display: none;
     }
 
     .navbar li {
         margin: 0px 0;
+    }
+
+    .menu-btn{
+        visibility: visible;
     }
 
     section {
@@ -112,14 +117,19 @@
 
     
     .navbar ul {
-        display: none;
         flex-direction: column;
         text-align: center;
         overflow: auto;
+        visibility: collapse;
+        display: none;
     }
 
     .navbar li {
         margin: 0px 0;
+    }
+
+    .menu-btn{
+        visibility: visible;
     }
 
     .contenedorFormulario {
@@ -231,6 +241,8 @@ p{
 
 .navbar {
     position: fixed; 
+    display: flex;
+    align-items: center;
     bottom: 0;      
     left: 0;
     width: 100%;
@@ -267,9 +279,14 @@ p{
     color: white;
     font-size: 24px;
     cursor: pointer;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    visibility: collapse;
 }
 
 .show-menu {
+    visibility: visible;
     display: flex !important;
 }
 
