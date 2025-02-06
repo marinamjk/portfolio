@@ -73,7 +73,7 @@
         width: 90vw;
     }
 
-    table, tbody, tr, td, col {
+    table, tbody, tr, td {
     display: block;
     width: 100%;
     }
@@ -84,6 +84,10 @@
 
     .tablaProyectos{
         border-spacing: 5px 0px;
+    }
+
+    #columnasproyectos{
+        display: block;
     }
 
     .tablaProyectos th{
@@ -138,9 +142,13 @@
         display: flex;
     }
 
-    table, tbody, tr, td, col {
+    table, tbody, tr, td {
     display: block;
     width: 100%;
+    }
+    
+    #columnasproyectos{
+        display: block;
     }
     
     tr {
