@@ -49,13 +49,14 @@
     }
 
     .navbar ul {
+        display: none;
         flex-direction: column;
         text-align: center;
         overflow: auto;
     }
 
     .navbar li {
-        margin: 5px 0;
+        margin: 0px 0;
     }
 
     section {
@@ -109,8 +110,16 @@
         font-size: 12px;
     }
 
-    .navbar {
-        position: static;
+    
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .navbar li {
+        margin: 0px 0;
     }
 
     .contenedorFormulario {
@@ -250,6 +259,18 @@ p{
 
 .navbar a:hover {
     background-color: #555; 
+}
+
+.menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.show-menu {
+    display: flex !important;
 }
 
 section{
