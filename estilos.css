@@ -94,6 +94,7 @@
         padding-right: 5px;
         height: 100vw;
         overflow: auto;
+        display: table;
     }
 
     .tablaProyectos{
@@ -177,6 +178,7 @@
         padding-right: 5px;
         height: 100vw;
         overflow: auto;
+        display: table;
     }
 
     .tablaProyectos{
