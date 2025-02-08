@@ -79,7 +79,7 @@
 
     table, tbody, tr, td {
     display: block;
-    width: 100%;
+    width: 100vw;
     }
     
     tr {
@@ -92,12 +92,12 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 100%;
+        width: 100vw;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 100%;
+        width: 100vw;
     }
 }
 
@@ -115,11 +115,12 @@
     }
 
     .navbar{
-        width: auto;
+        width: 100vw;
         height: auto;
     }
     
     .navbar ul {
+        transition: max-height 0.3s ease-in-out;
         flex-direction: column;
         text-align: center;
         overflow: auto;
@@ -154,7 +155,7 @@
 
     table, tbody, tr, td {
     display: block;
-    width: 100%;
+    width: 100vw;
     }
     
     tr {
@@ -167,12 +168,17 @@
 
     .tablaProyectos th{
         padding: 10px;
-        width: 100%;
+        width: 100vw;
     }
     
     .tablaProyectos td {
         padding: 10px;
-        width: 100%;
+        width: 100vw;
+    }
+
+    .show-menu {
+        max-height: 300px;
+        visibility: visible;
     }
 
 }
