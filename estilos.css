@@ -81,14 +81,15 @@
 
     table, tbody, tr, td {
     display: block;
-    width: 100vw;
+    width: auto;
+    
     }
     
     tr {
         margin-bottom: 10px; /* Espacio entre filas */
     }
 
-    .MisProyectos{
+    #MisProyectos{
         padding-left: 5px;
         padding-right: 5px;
         height: 100vw;
@@ -171,7 +172,7 @@
         margin-bottom: 10px; 
     }
 
-    .MisProyectos{
+    #MisProyectos{
         padding-left: 5px;
         padding-right: 5px;
         height: 100vw;
