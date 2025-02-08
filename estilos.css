@@ -81,9 +81,8 @@
     }
 
     table, tbody, tr, td {
-    display: block;
-    width: auto;
-    
+        width: 100vw;
+        justify-content: center;
     }
     
     tr {
@@ -91,11 +90,14 @@
     }
 
     #MisProyectos{
+        margin: auto;
         padding-left: 5px;
         padding-right: 5px;
         height: 100vw;
         overflow: auto;
         display: table;
+        justify-content: center;
+        align-items: center;
     }
 
     .tablaProyectos{
@@ -168,8 +170,8 @@
     }
 
     table, tbody, tr, td {
-    display: block;
     width: 100vw;
+    justify-content: center;
     }
     
     tr {
@@ -177,11 +179,14 @@
     }
 
     #MisProyectos{
+        margin: auto;
         padding-left: 5px;
         padding-right: 5px;
         height: 100vw;
         overflow: auto;
         display: table;
+        justify-content: center;
+        align-items: center;
     }
 
     .tablaProyectos{
