@@ -80,37 +80,27 @@
         width: 90vw;
     }
 
-    table, tbody, tr, td {
-        width: 100vw;
-        justify-content: center;
-    }
-    
-    tr {
-        margin-bottom: 10px; /* Espacio entre filas */
-    }
-
-    #MisProyectos{
-        margin: auto;
-        padding-left: 5px;
-        padding-right: 5px;
-        height: 100vw;
-        overflow: auto;
-        display: table;
-        justify-content: center;
-        align-items: center;
-    }
-
     .tablaProyectos{
-        border-spacing: 0px 5px;
-        width: 100vw;
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: separate;
+        border-spacing: 2px 0px;
+        table-layout: auto;
     }
 
-    .tablaProyectos th{
-        padding: 10px;
+    .tablaProyectos th, td{
+        border-spacing: 0px;
+        margin: 2px 0;
+        padding: 5px;
+        white-space: nowrap;
+    }
+
+    td {
+        transition: background-color 0.3s ease;
     }
     
-    .tablaProyectos td {
-        padding: 10px;
+    #MisProyectos tbody td:hover{
+        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 }
 
@@ -178,28 +168,27 @@
         margin-bottom: 10px; 
     }
 
-    #MisProyectos{
-        margin: auto;
-        padding-left: 5px;
-        padding-right: 5px;
-        height: 100vw;
-        overflow: auto;
-        display: table;
-        justify-content: center;
-        align-items: center;
-    }
-
     .tablaProyectos{
-        border-spacing: 0px 5px;
-        width: 100vw;
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: separate;
+        border-spacing: 2px 0px;
+        table-layout: auto;
     }
 
-    .tablaProyectos th{
-        padding: 10px;
+    .tablaProyectos th, td{
+        border-spacing: 0px;
+        margin: 2px 0;
+        padding: 5px;
+        white-space: nowrap;
+    }
+
+    td {
+        transition: background-color 0.3s ease;
     }
     
-    .tablaProyectos td {
-        padding: 10px;
+    #MisProyectos tbody td:hover{
+        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 
     .show-menu {
@@ -428,7 +417,9 @@ footer{
 .tablaProyectos{
     width: 100%;
     margin: 20px auto;
-    border-spacing: 50px 0;    
+    border-collapse: separate;
+    border-spacing: 20px 0px;
+    table-layout: auto;
 }
 
 .tablaProyectos th{
