@@ -104,12 +104,13 @@
 
     .tablaProyectos tbody td::before{
         content: attr(data-field);
-        display: block;
-        float: left;
+        display: inline-block;       
         font-weight: bold;
+        color: black;
         padding: 0 10px 0 0;
         text-align: left;
         width: auto;
+        overflow: hidden;
     }
 
     .tablaProyectos th, td{
@@ -119,11 +120,11 @@
         white-space: nowrap;
     }
 
-    td {
+    .tablaProyectos td {
         transition: background-color 0.3s ease;
     }
     
-    #MisProyectos td:hover{
+    .tablaProyectos td:hover {
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 }
@@ -207,12 +208,13 @@
 
     .tablaProyectos tbody td::before{
         content: attr(data-field);
-        display: block;
-        float: left;
+        display: inline-block;       
         font-weight: bold;
+        color: black;
         padding: 0 10px 0 0;
         text-align: left;
         width: auto;
+        overflow: hidden;
     }
 
     .tablaProyectos th, td{
@@ -222,11 +224,11 @@
         white-space: nowrap;
     }
 
-    td {
+    .tablaProyectos td {
         transition: background-color 0.3s ease;
     }
     
-    #MisProyectos td:hover{
+    .tablaProyectos td:hover {
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 
