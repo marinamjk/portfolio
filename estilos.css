@@ -85,21 +85,17 @@
         margin: 10px 0;
         border-collapse: separate;
         border-spacing: 2px 0px;
-        table-layout: auto;
+        table-layout: fixed;
     }
 
     .tablaProyectos thead{
         display: none;
     }
 
-    .tablaProyectos tbody tr td:first-child{
-        background: #f0f0f0;
-        font-weight: bold;
-    }
-
     .tablaProyectos tbody td{
         display: block;
         text-align: right;
+        height: auto;
     }
 
     .tablaProyectos tbody td::before{
@@ -189,21 +185,17 @@
         margin: 10px 0;
         border-collapse: separate;
         border-spacing: 2px 0px;
-        table-layout: auto;
+        table-layout: fixed;
     }
 
     .tablaProyectos thead{
         display: none;
     }
 
-    .tablaProyectos tbody tr td:first-child{
-        background: #f0f0f0;
-        font-weight: bold;
-    }
-
     .tablaProyectos tbody td{
         display: block;
         text-align: right;
+        height: auto;
     }
 
     .tablaProyectos tbody td::before{
