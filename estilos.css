@@ -78,6 +78,7 @@
 
     .fotoPerfil {
         width: 90vw;
+        float: left;
     }
 
     .tablaProyectos{
@@ -91,9 +92,21 @@
     .tablaProyectos thead{
         display: none;
     }
+
+    .tablaProyectos{
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: separate;
+        border-spacing: 5px 0px;
+        table-layout: fixed;
+    }
+
+    .tablaProyectos thead{
+        display: none;
+    }
+
     .tablaProyectos tbody td{
-        display: block;
-        align-items: flex-start;
+        display: inline-block;
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
@@ -125,6 +138,7 @@
     .tablaProyectos td:hover {
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
+
     
 }
 
@@ -169,6 +183,7 @@
 
     .fotoPerfil {
         width: 90vw;
+        float: left;
     }
 
     .contenedorConocimientos {
@@ -196,8 +211,7 @@
     }
 
     .tablaProyectos tbody td{
-        display: block;
-        align-items: flex-start;
+        display: inline-block;
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
