@@ -188,7 +188,6 @@
         overflow: auto;
         align-content: center;
     }
-
     .tablaProyectos{
         width: 100%;
         margin: 10px 0;
@@ -204,6 +203,7 @@
     .tablaProyectos tbody td{
         display: flex;
         justify-content: space-between;
+        align-items: stretch;
         align-items: center;
         text-align: left;
         white-space: normal;
@@ -212,7 +212,8 @@
     }
 
     .tablaProyectos tbody td::before{
-        content: attr(data-field);       
+        content: attr(data-field);
+        justify-content: space-between;       
         font-weight: bold;
         color: black;
         padding: 0 10px 0 0;
