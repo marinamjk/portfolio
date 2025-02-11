@@ -93,18 +93,6 @@
         display: none;
     }
 
-    .tablaProyectos{
-        width: 100%;
-        margin: 10px 0;
-        border-collapse: separate;
-        border-spacing: 5px 0px;
-        table-layout: fixed;
-    }
-
-    .tablaProyectos thead{
-        display: none;
-    }
-
     .tablaProyectos tbody td{
         display: flex;
         justify-content: space-between;
@@ -142,7 +130,6 @@
     .tablaProyectos td:hover {
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
-
     
 }
 
@@ -215,7 +202,9 @@
     }
 
     .tablaProyectos tbody td{
-        display: inline-block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
@@ -223,15 +212,17 @@
     }
 
     .tablaProyectos tbody td::before{
-        content: attr(data-field);
-        display: inline-block;     
+        content: attr(data-field);       
         font-weight: bold;
         color: black;
         padding: 0 10px 0 0;
-        text-align: left;
-        width: auto;
-        height: 100%;
+        text-align: left; 
+        flex: 1;
         overflow: hidden;
+    }
+
+    .tablaProyectos tbody td span{
+        flex: 2;
     }
 
     .tablaProyectos th, td{
@@ -247,7 +238,7 @@
     .tablaProyectos td:hover {
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
-
+    
     .show-menu {
         max-height: 300px;
         visibility: visible;
