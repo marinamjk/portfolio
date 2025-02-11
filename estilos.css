@@ -19,12 +19,12 @@
         border-spacing: 5px 0px;
     }
 
-    .tablaProyectos th{
+    .tablaProyectos tbody th{
         padding: 10px;
         width: 100%;
     }
     
-    .tablaProyectos td {
+    .tablaProyectos tbody td {
         padding: 10px;
         width: 100%;
     }
@@ -88,6 +88,30 @@
         table-layout: auto;
     }
 
+    .tablaProyectos thead{
+        display: none;
+    }
+
+    .tablaProyectos tbody tr td:first-child{
+        background: #f0f0f0;
+        font-weight: bold;
+    }
+
+    .tablaProyectos tbody td{
+        display: block;
+        text-align: right;
+    }
+
+    .tablaProyectos tbody td::before{
+        content: attr(data-field);
+        display: block;
+        float: left;
+        font-weight: bold;
+        padding: 0 10px 0 0;
+        text-align: left;
+        width: auto;
+    }
+
     .tablaProyectos th, td{
         border-spacing: 0px;
         margin: 2px 0;
@@ -99,7 +123,7 @@
         transition: background-color 0.3s ease;
     }
     
-    #MisProyectos tbody td:hover{
+    #MisProyectos td:hover{
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 }
@@ -159,15 +183,6 @@
         align-content: center;
     }
 
-    table, tbody, tr, td {
-    width: 100vw;
-    justify-content: center;
-    }
-    
-    tr {
-        margin-bottom: 10px; 
-    }
-
     .tablaProyectos{
         width: 100%;
         margin: 10px 0;
@@ -183,11 +198,11 @@
         white-space: nowrap;
     }
 
-    td {
+    .tablaProyectos td {
         transition: background-color 0.3s ease;
     }
     
-    #MisProyectos tbody td:hover{
+    .tablaProyectos tbody td:hover{
         background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
     }
 
@@ -428,7 +443,6 @@ footer{
     background-color: #a34177;
     padding: 10px;
     text-align: center;
-    width: 30%;
 }
 
 .tablaProyectos td {
@@ -440,11 +454,11 @@ footer{
     width: 30%;
 }
 
-td {
+.tablaProyectos td {
     transition: background-color 0.3s ease;
 }
 
-#MisProyectos tbody td:hover{
+.tablaProyectos td:hover{
     background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
 }
 
