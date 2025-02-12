@@ -30,11 +30,12 @@
     }
 
     .fotoPerfil{
-        width: 80vw;
+        width: 60%;
     }
 
-    .contenedorConocimientos{
-        width: 90%;
+    .contenedorConocimientos {
+        border-radius: 10px;
+        width: 80%;
     }
 }
 
@@ -46,6 +47,12 @@
 
     .subtitulo {
         font-size: 16px;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .navbar{
@@ -154,6 +161,8 @@
 
     p {
         font-size: 12px;
+        padding: 0px;
+        margin: 0px;
     }
 
     .navbar{
@@ -200,8 +209,8 @@
     }
 
     section {
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 0px;
+        margin: 0px;
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
