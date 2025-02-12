@@ -86,7 +86,7 @@
     }
 
     .contenedorConocimientos {
-        width: 100%;
+        width: 90%;
         border-radius: 20px;
     }
 
@@ -196,6 +196,7 @@
 
     .contenedorConocimientos {
         border-radius: 10px;
+        width: 80%;
     }
 
     section {
@@ -319,7 +320,7 @@ h3{
 p{
     font-size: 16px;
     color: black;
-    text-align: left;
+    text-align: justify;
     line-height: 1.8;
     letter-spacing: 2;
     box-sizing: border-box;
@@ -441,10 +442,6 @@ footer{
     gap: 20px;
     flex-wrap: nowrap;
     align-items: center;
-}
-
-p{
-    text-align: justify;
 }
 
 .fotoPerfil{
