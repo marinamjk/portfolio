@@ -67,23 +67,18 @@
         padding-left: 5px;
         padding-right: 5px;
         height: 100vh;
+        min-height: 100vh;
         overflow: auto;
         align-content: center;
     }
 
-    .tablaSobreMi{
+    .SobreMi{
         display: flex;
-        align-items: flex-start;
-        gap: 20px;
+        flex-direction: column;
     }
-
-    .tablaSobreMi p{
-        text-align: justify;        
-    }
-
-    .fotoPerfil {
+    
+    .fotoPerfil{
         width: 50vw;
-        float: left;   
     }
 
     .contenedorConocimientos {
@@ -117,6 +112,7 @@
         content: attr(data-field);       
         font-weight: bold;
         color: black;
+        background-color: #a34177;
         padding: 0 10px 0 0;
         text-align: left; 
         flex: 1;
@@ -182,19 +178,13 @@
         margin-right: 15px;
     }
 
-    .tablaSobreMi{
+    .SobreMi{
         display: flex;
-        align-items: flex-start;
-        gap: 20px;
+        flex-direction: column;
     }
-
-    .tablaSobreMi p{
-        text-align: justify;        
-    }
-
-    .fotoPerfil {
+    
+    .fotoPerfil{
         width: 50vw;
-        float: left;   
     }
 
     .contenedorConocimientos {
@@ -204,6 +194,7 @@
     section {
         padding-left: 5px;
         padding-right: 5px;
+        min-height: 100vh;
         height: 100vh;
         overflow: auto;
         align-content: center;
@@ -237,6 +228,7 @@
         justify-content: space-between;       
         font-weight: bold;
         color: black;
+        background-color: #a34177;
         padding: 0 10px 0 0;
         text-align: left; 
         flex: 1;
@@ -382,6 +374,7 @@ p{
 }
 
 section{
+    min-height: 100vh;
     height: 100vh;
     width: 100%;
     padding-right: 50px;
@@ -434,12 +427,19 @@ footer{
     box-sizing: border-box;
 }
 
+.SobreMi{
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 .fotoPerfil{
-    width: 200px;
+    width: 150px;
     height: auto;
-    padding: 20px;
+    padding: 10px;
     border:#a34177;
-    border-width: 8px;
+    border-width: 5px;
     border-style:solid;
 }
 
@@ -469,7 +469,7 @@ footer{
 
 .contenedorConocimientos{
     background-color: rgba(255, 255, 255, 0.75);
-    width: fit-content;
+    width: 50%;
     height: 100%;
     border-radius: 50px;
     margin: 8px 0px;
