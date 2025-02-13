@@ -498,7 +498,11 @@ footer{
     display: flex;
     justify-content: center;
     text-align: center;
+    align-content: flex-start;
+    align-items: center;
     box-sizing: border-box;
+    flex-wrap: wrap;
+
 }
 
 .tablaProyectos{
