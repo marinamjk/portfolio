@@ -110,7 +110,6 @@
 
     .iconosConocimientos{
         display: flex;
-        flex-wrap: wrap;
         flex-basis: 100%;
     }
 
@@ -232,7 +231,6 @@
 
     .iconosConocimientos{
         display: flex;
-        flex-wrap: wrap;
         flex-basis: 100%;
     }
 
