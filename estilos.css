@@ -114,6 +114,7 @@
         display: flex;
         flex-basis: 100%;
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     .iconosConocimientos img{
@@ -244,6 +245,7 @@
         display: flex;
         flex-basis: 100%;
         flex-wrap: nowrap;
+        justify-content: center;
     }
 
     .iconosConocimientos img{
