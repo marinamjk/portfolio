@@ -93,9 +93,8 @@
     }
 
     .contenedorConocimientos {
-        flex-basis: 100%;
+        flex-basis: 100vw;
         border-radius: 10px;
-        flex-wrap: wrap;
     }
 
     section {
@@ -108,13 +107,22 @@
         box-sizing: border-box;
     }
 
+    .contenedorConocimientos{
+        flex-basis: 100vw;
+        border-radius: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+
     .iconosConocimientos{
         display: flex;
         flex-basis: 100%;
+        flex-wrap: nowrap;
     }
 
     .iconosConocimientos img{
-        flex: 1;
+        flex: 0 1 auto;
     }
 
     .tablaProyectos{
@@ -229,13 +237,22 @@
         width: 50vw;
     }
 
+    .contenedorConocimientos{
+        flex-basis: 100vw;
+        border-radius: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-sizing: border-box;
+    }
+
     .iconosConocimientos{
         display: flex;
         flex-basis: 100%;
+        flex-wrap: nowrap;
     }
 
     .iconosConocimientos img{
-        flex: 1;
+        flex: 0 1 auto;
     }
 
     section {
@@ -246,19 +263,7 @@
         overflow: auto;
         align-content: center;
         box-sizing: border-box;
-    }
-
-    
-    .iconosConocimientos{
-        flex-wrap: wrap;
-        flex-basis: 100%;
-        background-color: black;
-    }
-
-    img{
-        width: 30px;
-        height: auto;
-    }
+    }  
 
     .tablaProyectos{
         width: 100%;
