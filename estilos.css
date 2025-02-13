@@ -177,7 +177,6 @@
     
     .show-menu {
         max-height: 300px;
-        visibility: visible;
     }
 
 }
@@ -320,7 +319,6 @@
     
     .show-menu {
         max-height: 300px;
-        visibility: visible;
     }
 }
 
@@ -418,6 +416,11 @@ p{
     background-color: #555; 
 }
 
+#menu{
+    visibility: collapse;
+    display: none;
+}
+
 .menu-btn {
     background: none;
     border: none;
@@ -433,8 +436,8 @@ p{
 }
 
 .show-menu {
-    display: none !important;
-    visibility: collapse;
+    display: flex !important;
+    visibility: visible !important;
 }
 
 section{
