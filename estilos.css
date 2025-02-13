@@ -93,8 +93,9 @@
     }
 
     .contenedorConocimientos {
-        flex-basis: 90vw;
+        flex-basis: 90%;
         border-radius: 20px;
+        flex-wrap: wrap;
     }
 
     section {
@@ -220,8 +221,9 @@
     }
 
     .contenedorConocimientos {
-        flex-basis: 90vw;
+        flex-basis: 90%;
         border-radius: 20px;
+        flex-wrap: wrap;
     }
 
     section {
