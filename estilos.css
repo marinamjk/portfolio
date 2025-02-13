@@ -57,6 +57,7 @@
     .navbar{
         width: 100vw;
         height: auto;
+        align-items: flex-end;
     }
     
     .navbar ul {
@@ -203,6 +204,7 @@
     .navbar{
         width: 100vw;
         height: auto;
+        align-items: flex-end;
     }
     
     .navbar ul {
