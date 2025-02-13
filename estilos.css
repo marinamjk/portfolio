@@ -93,7 +93,7 @@
     }
 
     .contenedorConocimientos {
-        flex-basis: 150px;
+        flex-basis: 100%;
         border-radius: 10px;
         flex-wrap: wrap;
     }
@@ -108,8 +108,13 @@
         box-sizing: border-box;
     }
 
+    .iconosConocimientos{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+
     img{
-        width: 50px;
+        width: 30px;
         height: auto;
     }
 
@@ -241,8 +246,14 @@
         box-sizing: border-box;
     }
 
+    
+    .iconosConocimientos{
+        flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+
     img{
-        width: 50px;
+        width: 30px;
         height: auto;
     }
 
