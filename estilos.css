@@ -109,14 +109,13 @@
     }
 
     .iconosConocimientos{
+        display: flex;
         flex-wrap: wrap;
         flex-basis: 100%;
-        background-color: black;
     }
 
-    img{
-        width: 30px;
-        height: auto;
+    .iconosConocimientos img{
+        flex: 1;
     }
 
     .tablaProyectos{
@@ -231,10 +230,14 @@
         width: 50vw;
     }
 
-    .contenedorConocimientos {
-        flex-basis: 150px;
-        border-radius: 10px;
+    .iconosConocimientos{
+        display: flex;
         flex-wrap: wrap;
+        flex-basis: 100%;
+    }
+
+    .iconosConocimientos img{
+        flex: 1;
     }
 
     section {
