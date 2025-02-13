@@ -179,6 +179,10 @@
         max-height: 300px;
     }
 
+    .menu-btn{
+        align-self: flex-end;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -319,6 +323,10 @@
     
     .show-menu {
         max-height: 300px;
+    }
+
+    .menu-btn{
+        align-self: flex-end;
     }
 }
 
