@@ -180,7 +180,7 @@
     }
 
     .menu-btn {
-        align-items: flex-end;
+        align-self: flex-end;
     }
 
 }
@@ -326,7 +326,7 @@
     }
 
     .menu-btn {
-        align-items: flex-end;
+        align-self: flex-end;
     }
 }
 
