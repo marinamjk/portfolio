@@ -111,6 +111,7 @@
     .iconosConocimientos{
         flex-wrap: wrap;
         flex-basis: 100%;
+        background-color: black;
     }
 
     img{
@@ -250,6 +251,7 @@
     .iconosConocimientos{
         flex-wrap: wrap;
         flex-basis: 100%;
+        background-color: black;
     }
 
     img{
