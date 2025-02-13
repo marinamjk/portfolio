@@ -180,10 +180,6 @@
         visibility: visible;
     }
 
-    .menu-btn {
-        align-self: flex-end;
-    }
-
 }
 
 @media (max-width: 480px) {
@@ -325,10 +321,6 @@
     .show-menu {
         max-height: 300px;
         visibility: visible;
-    }
-
-    .menu-btn {
-        align-self: flex-end;
     }
 }
 
