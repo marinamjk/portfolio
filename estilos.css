@@ -99,7 +99,8 @@
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
-        align-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
         box-sizing: border-box;
     }
 
@@ -265,7 +266,8 @@
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
-        align-content: center;
+        align-content: flex-start;
+        align-items: flex-start;
         box-sizing: border-box;
     }  
 
