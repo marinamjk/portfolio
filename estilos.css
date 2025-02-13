@@ -92,11 +92,6 @@
         width: 50vw;
     }
 
-    .contenedorConocimientos {
-        flex-basis: 100vw;
-        border-radius: 10px;
-    }
-
     section {
         padding: 0px 0px;
         margin: 0px 0px;
