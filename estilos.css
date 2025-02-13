@@ -179,6 +179,10 @@
         visibility: visible;
     }
 
+    .menu-btn {
+        align-items: flex-end;
+    }
+
 }
 
 @media (max-width: 480px) {
@@ -321,6 +325,9 @@
         visibility: visible;
     }
 
+    .menu-btn {
+        align-items: flex-end;
+    }
 }
 
 body, html {
