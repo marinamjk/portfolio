@@ -374,7 +374,7 @@ button:hover {
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
-        align-content: center;
+        align-items: center;
     }
     
     .fotoPerfil{
@@ -521,7 +521,7 @@ button:hover {
         gap: 20px;
         flex-wrap: nowrap;
         justify-content: center;
-        align-content: center;
+        align-items: center;
         flex-direction: column;
     }
     
