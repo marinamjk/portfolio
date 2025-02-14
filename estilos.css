@@ -1,6 +1,6 @@
 body, html {
     font-family: "Dosis", serif;
-    font-optical-sizing: auto;
+    font-optical-sizing: none;
     font-weight: 400;
     font-style: normal;
     margin: 0;
