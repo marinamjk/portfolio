@@ -74,6 +74,7 @@
     .contenedorFormulario {
         width: 90%;
         padding: 10px;
+        align-content: flex-start;
     }
 
     .iconosContacto {
@@ -100,6 +101,7 @@
         min-height: 100vh;
         overflow: auto;
         box-sizing: border-box;
+        align-content: flex-start;
     }
 
     .contenedorConocimientos{
@@ -220,6 +222,7 @@
     .contenedorFormulario {
         width: 90%;
         padding: 10px;
+        align-content: flex-start;
     }
 
     .iconosContacto {
@@ -267,6 +270,7 @@
         min-height: 100vh;
         overflow: auto;
         box-sizing: border-box;
+        align-content: flex-start;
     }  
 
     .tablaProyectos{
@@ -358,6 +362,10 @@ h1{
     margin: 0px 20px;
     color: white;
     text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.5);
+}
+
+.presentacion{
+    align-content: center;
 }
 
 h2{
@@ -456,7 +464,7 @@ section{
     padding-left: 50px;
     padding-top: 5px;
     padding-bottom: 20px;
-    align-content: flex-start;
+    align-content: center;
     box-sizing: border-box;
 }
 
@@ -548,7 +556,7 @@ footer{
     flex-basis: 50vw;
     height: 100%;
     border-radius: 50px;
-    margin: 8px 0px;
+    margin: 3px 0px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -599,7 +607,7 @@ footer{
 
 .contenedorFormulario {
     max-width: 600px;
-    margin: 20px auto;
+    margin: 10px auto;
     background-color: #949494;
     padding: 20px;
     box-shadow: 0 0 10px rgba(147, 147, 147, 0.852);
