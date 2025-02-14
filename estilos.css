@@ -379,6 +379,7 @@ button:hover {
     
     .fotoPerfil{
         flex-basis: 30vw;
+        justify-content: center;
     }
 
     .contenedorConocimientos{
@@ -527,6 +528,7 @@ button:hover {
     
     .fotoPerfil{
         flex-basis: 30vw;
+        justify-content: center;
     }
 
     section {
