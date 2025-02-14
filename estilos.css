@@ -270,7 +270,7 @@
         min-height: 100vh;
         overflow: auto;
         box-sizing: border-box;
-        align-content: flex-start;
+        align-content: flex-start !important;
     }  
 
     .tablaProyectos{
