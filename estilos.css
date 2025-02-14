@@ -376,7 +376,7 @@ button:hover {
     }
     
     .fotoPerfil{
-        width: 50vw;
+        width: 30vw;
     }
 
     .contenedorConocimientos{
@@ -401,7 +401,7 @@ button:hover {
     }
 
     section {
-        padding: 20px 20px;
+        padding: 0px 0px;
         margin: 0px 0px;
         height: 100vh;
         min-height: 100vh;
@@ -523,11 +523,11 @@ button:hover {
     }
     
     .fotoPerfil{
-        width: 50vw;
+        width: 30vw;
     }
 
     section {
-        padding: 20px 20px;
+        padding: 0px 0px;
         margin: 0px 0px;
         height: 100vh;
         min-height: 100vh;
