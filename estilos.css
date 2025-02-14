@@ -1,339 +1,3 @@
-@media (max-width: 1024px){
-    h1{
-        font-size: 24px;
-        text-align: center;
-    }
-
-    .subtitulo{
-        font-size: 18px;
-        text-align: center;
-    }
-
-    p{
-        padding-left: 15px;
-        padding-right: 15px;
-        font-size: 14px;
-    }
-
-    .tablaProyectos{
-        border-spacing: 5px 0px;
-    }
-
-    .tablaProyectos tbody th{
-        padding: 10px;
-        width: 100%;
-    }
-    
-    .tablaProyectos tbody td {
-        padding: 10px;
-        width: 100%;
-    }
-
-    .fotoPerfil{
-        width: 60%;
-    }
-
-    .contenedorConocimientos {
-        border-radius: 10px;
-        width: 80%;
-    }
-}
-
-@media (max-width: 768px) {
-    h1 {
-        font-size: 18px;
-    }
-
-    .subtitulo {
-        font-size: 14px;
-    }
-
-    p {
-        font-size: 12px;
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-
-    .navbar{
-        width: 100vw;
-        height: auto;
-        align-items: flex-end;
-    }
-    
-    .navbar ul {
-        transition: max-height 0.3s ease-in-out;
-        flex-direction: column;
-        text-align: center;
-        overflow: auto;
-    }
-
-    .navbar li {
-        margin: 0px 0;
-    }
-
-    .contenedorFormulario {
-        width: 90%;
-        padding: 10px;
-        align-content: flex-start;
-    }
-
-    .iconosContacto {
-        width: 30px;
-        margin-right: 15px;
-    }
-
-    .SobreMi{
-        display: flex;
-        gap: 20px;
-        flex-wrap: nowrap;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .fotoPerfil{
-        width: 50vw;
-    }
-
-    section {
-        padding: 0px 0px;
-        margin: 0px 0px;
-        height: 100vh;
-        min-height: 100vh;
-        overflow: auto;
-        box-sizing: border-box;
-        align-content: flex-start;
-    }
-
-    .contenedorConocimientos{
-        flex-basis: 100vw;
-        border-radius: 20px;
-        margin: 0px 0px;
-        padding: 0px 0px;
-        box-sizing: border-box;
-        justify-content: center;
-        align-content: flex-start;
-    }
-
-    .iconosConocimientos{
-        display: flex;
-        flex-basis: 100%;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-
-    .iconosConocimientos img{
-        flex: 0 1 auto;
-    }
-
-    .tablaProyectos{
-        width: 100%;
-        margin: 10px 0;
-        border-collapse: separate;
-        border-spacing: 5px 0px;
-        table-layout: fixed;
-    }
-
-    .tablaProyectos thead{
-        display: none;
-    }
-
-    .tablaProyectos tbody td{
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        align-items: center;
-        text-align: left;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow-wrap: break-word; 
-    }
-
-    .tablaProyectos tbody td::before{
-        content: attr(data-field);
-        justify-content: space-between;       
-        font-weight: bold;
-        color: black;
-        padding: 0 10px 0 0;
-        text-align: left; 
-        flex: 1;
-        overflow: hidden;
-    }
-
-    .tablaProyectos tbody td span{
-        flex: 2;
-    }
-
-    .tablaProyectos th, td{
-        border-spacing: 0px;
-        margin: 5px 0;
-        padding: 5px;
-    }
-
-    .tablaProyectos td {
-        transition: background-color 0.3s ease;
-    }
-    
-    .tablaProyectos td:hover {
-        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
-    }
-    
-    .show-menu {
-        max-height: 300px;
-    }
-
-    .menu-btn{
-        align-self: flex-end;
-    }
-
-}
-
-@media (max-width: 480px) {
-    h1 {
-        font-size: 18px;
-    }
-
-    .subtitulo {
-        font-size: 14px;
-    }
-
-    p {
-        font-size: 12px;
-        padding: 0px !important;
-        margin: 0px !important;
-    }
-
-    .navbar{
-        width: 100vw;
-        height: auto;
-        align-items: flex-end;
-    }
-    
-    .navbar ul {
-        transition: max-height 0.3s ease-in-out;
-        flex-direction: column;
-        text-align: center;
-        overflow: auto;
-    }
-
-    .navbar li {
-        margin: 0px 0;
-    }
-
-    .contenedorFormulario {
-        width: 90%;
-        padding: 10px;
-        align-content: flex-start;
-    }
-
-    .iconosContacto {
-        width: 30px;
-        margin-right: 15px;
-    }
-
-    .SobreMi{
-        display: flex;
-        gap: 20px;
-        flex-wrap: nowrap;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    .fotoPerfil{
-        width: 50vw;
-    }
-
-    .contenedorConocimientos{
-        flex-basis: 100vw;
-        border-radius: 20px;
-        margin: 0px 0px;
-        padding: 0px 0px;
-        box-sizing: border-box;
-        justify-content: center;
-        align-content: flex-start;
-    }
-
-    .iconosConocimientos{
-        display: flex;
-        flex-basis: 100%;
-        flex-wrap: nowrap;
-        justify-content: center;
-    }
-
-    .iconosConocimientos img{
-        flex: 0 1 auto;
-    }
-
-    section {
-        padding: 0px 0px;
-        margin: 0px 0px;
-        height: 100vh;
-        min-height: 100vh;
-        overflow: auto;
-        box-sizing: border-box;
-        align-content: flex-start !important;
-    }  
-
-    .tablaProyectos{
-        width: 100%;
-        margin: 10px 0;
-        border-collapse: separate;
-        border-spacing: 5px 0px;
-        table-layout: fixed;
-    }
-
-    .tablaProyectos thead{
-        display: none;
-    }
-
-    .tablaProyectos tbody td{
-        display: flex;
-        justify-content: space-between;
-        align-items: stretch;
-        align-items: center;
-        text-align: left;
-        white-space: normal;
-        word-wrap: break-word;
-        overflow-wrap: break-word; 
-    }
-
-    .tablaProyectos tbody td::before{
-        content: attr(data-field);
-        justify-content: space-between;       
-        font-weight: bold;
-        color: black;
-        padding: 0 10px 0 0;
-        text-align: left; 
-        flex: 1;
-        overflow: hidden;
-    }
-
-    .tablaProyectos tbody td span{
-        flex: 2;
-    }
-
-    .tablaProyectos th, td{
-        border-spacing: 0px;
-        margin: 5px 0;
-        padding: 5px;
-    }
-
-    .tablaProyectos td {
-        transition: background-color 0.3s ease;
-    }
-    
-    .tablaProyectos td:hover {
-        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
-    }
-    
-    .show-menu {
-        max-height: 300px;
-    }
-
-    .menu-btn{
-        align-self: flex-end;
-    }
-}
-
 body, html {
     font-family: "Dosis", serif;
     font-optical-sizing: auto;
@@ -655,4 +319,340 @@ button {
 
 button:hover {
     background-color: #a8a8a8;
+}
+
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .subtitulo {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .navbar{
+        width: 100vw;
+        height: auto;
+        align-items: flex-end;
+    }
+    
+    .navbar ul {
+        transition: max-height 0.3s ease-in-out;
+        flex-direction: column;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .navbar li {
+        margin: 0px 0;
+    }
+
+    .contenedorFormulario {
+        width: 90%;
+        padding: 10px;
+        align-content: flex-start;
+    }
+
+    .iconosContacto {
+        width: 30px;
+        margin-right: 15px;
+    }
+
+    .SobreMi{
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fotoPerfil{
+        width: 50vw;
+    }
+
+    .contenedorConocimientos{
+        flex-basis: 100vw;
+        border-radius: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .iconosConocimientos{
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .iconosConocimientos img{
+        flex: 0 1 auto;
+    }
+
+    section {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        height: 100vh;
+        min-height: 100vh;
+        overflow: auto;
+        box-sizing: border-box;
+        align-content: flex-start !important;
+    }  
+
+    .tablaProyectos{
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: separate;
+        border-spacing: 5px 0px;
+        table-layout: fixed;
+    }
+
+    .tablaProyectos thead{
+        display: none;
+    }
+
+    .tablaProyectos tbody td{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        align-items: center;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
+    }
+
+    .tablaProyectos tbody td::before{
+        content: attr(data-field);
+        justify-content: space-between;       
+        font-weight: bold;
+        color: black;
+        padding: 0 10px 0 0;
+        text-align: left; 
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .tablaProyectos tbody td span{
+        flex: 2;
+    }
+
+    .tablaProyectos th, td{
+        border-spacing: 0px;
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    .tablaProyectos td {
+        transition: background-color 0.3s ease;
+    }
+    
+    .tablaProyectos td:hover {
+        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
+    }
+    
+    .show-menu {
+        max-height: 300px;
+    }
+
+    .menu-btn{
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 18px;
+    }
+
+    .subtitulo {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+        padding: 0px !important;
+        margin: 0px !important;
+    }
+
+    .navbar{
+        width: 100vw;
+        height: auto;
+        align-items: flex-end;
+    }
+    
+    .navbar ul {
+        transition: max-height 0.3s ease-in-out;
+        flex-direction: column;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .navbar li {
+        margin: 0px 0;
+    }
+
+    .contenedorFormulario {
+        width: 90%;
+        padding: 10px;
+        align-content: flex-start;
+    }
+
+    .iconosContacto {
+        width: 30px;
+        margin-right: 15px;
+    }
+
+    .SobreMi{
+        display: flex;
+        gap: 20px;
+        flex-wrap: nowrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .fotoPerfil{
+        width: 50vw;
+    }
+
+    section {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        height: 100vh;
+        min-height: 100vh;
+        overflow: auto;
+        box-sizing: border-box;
+        align-content: flex-start;
+    }
+
+    .contenedorConocimientos{
+        flex-basis: 100vw;
+        border-radius: 20px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+        box-sizing: border-box;
+        justify-content: center;
+        align-content: flex-start;
+    }
+
+    .iconosConocimientos{
+        display: flex;
+        flex-basis: 100%;
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+
+    .iconosConocimientos img{
+        flex: 0 1 auto;
+    }
+
+    .tablaProyectos{
+        width: 100%;
+        margin: 10px 0;
+        border-collapse: separate;
+        border-spacing: 5px 0px;
+        table-layout: fixed;
+    }
+
+    .tablaProyectos thead{
+        display: none;
+    }
+
+    .tablaProyectos tbody td{
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        align-items: center;
+        text-align: left;
+        white-space: normal;
+        word-wrap: break-word;
+        overflow-wrap: break-word; 
+    }
+
+    .tablaProyectos tbody td::before{
+        content: attr(data-field);
+        justify-content: space-between;       
+        font-weight: bold;
+        color: black;
+        padding: 0 10px 0 0;
+        text-align: left; 
+        flex: 1;
+        overflow: hidden;
+    }
+
+    .tablaProyectos tbody td span{
+        flex: 2;
+    }
+
+    .tablaProyectos th, td{
+        border-spacing: 0px;
+        margin: 5px 0;
+        padding: 5px;
+    }
+
+    .tablaProyectos td {
+        transition: background-color 0.3s ease;
+    }
+    
+    .tablaProyectos td:hover {
+        background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
+    }
+    
+    .show-menu {
+        max-height: 300px;
+    }
+
+    .menu-btn{
+        align-self: flex-end;
+    }
+}
+
+@media (max-width: 1024px){
+    h1{
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .subtitulo{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    p{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px;
+    }
+
+    .tablaProyectos{
+        border-spacing: 5px 0px;
+    }
+
+    .tablaProyectos tbody th{
+        padding: 10px;
+        width: 100%;
+    }
+    
+    .tablaProyectos tbody td {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .fotoPerfil{
+        width: 60%;
+    }
+
+    .contenedorConocimientos {
+        border-radius: 10px;
+        width: 80%;
+    }
 }
