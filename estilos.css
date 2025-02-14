@@ -415,7 +415,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 12px 12px;
+        margin: 5px 5px;
         border-collapse: separate;
         border-spacing: 5px 0px;
         table-layout: fixed;
@@ -564,7 +564,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 12px 12px;
+        margin: 5px 5px;
         border-collapse: separate;
         border-spacing: 5px 0px;
         table-layout: fixed;
