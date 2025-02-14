@@ -335,7 +335,7 @@ button:hover {
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
         padding: 20px;
         margin: 20px;
     }
@@ -415,7 +415,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 10px 0;
+        margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 5px 0px;
         table-layout: fixed;
@@ -453,7 +453,7 @@ button:hover {
 
     .tablaProyectos th, td{
         border-spacing: 0px;
-        margin: 20px 20px;
+        margin: 5px 0;
         padding: 5px;
     }
 
@@ -484,7 +484,7 @@ button:hover {
     }
 
     p {
-        font-size: 16px;
+        font-size: 18px;
         padding: 20px;
         margin: 20px;
     }
@@ -564,7 +564,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 20px 20px;
+        margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 5px 0px;
         table-layout: fixed;
@@ -663,4 +663,3 @@ button:hover {
         width: 80%;
     }
 }
-*/
