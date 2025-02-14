@@ -29,7 +29,9 @@ h1{
 }
 
 .presentacion{
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h2{
@@ -400,7 +402,7 @@ button:hover {
 
     section {
         padding: 0px 0px;
-        margin: 0px 0px;
+        margin: 5px 5px;
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
@@ -526,7 +528,7 @@ button:hover {
 
     section {
         padding: 0px 0px;
-        margin: 0px 0px;
+        margin: 5px 5px;
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
