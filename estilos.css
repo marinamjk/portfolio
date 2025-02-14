@@ -100,6 +100,9 @@
         min-height: 100vh;
         overflow: auto;
         box-sizing: border-box;
+        display: flex;
+        align-content: flex-start;
+        align-items: flex-start;
     }
 
     .contenedorConocimientos{
@@ -246,6 +249,7 @@
         padding: 0px 0px;
         box-sizing: border-box;
         justify-content: center;
+        align-content: flex-start;
     }
 
     .iconosConocimientos{
@@ -265,6 +269,7 @@
         height: 100vh;
         min-height: 100vh;
         overflow: auto;
+        display: flex;
         align-content: flex-start;
         align-items: flex-start;
         box-sizing: border-box;
