@@ -327,15 +327,15 @@ button:hover {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     .subtitulo {
-        font-size: 14px;
+        font-size: 22px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 20px;
         padding: 20px;
         margin: 20px;
     }
@@ -476,15 +476,15 @@ button:hover {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 22px;
+        font-size: 26px;
     }
 
     .subtitulo {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     p {
-        font-size: 18px;
+        font-size: 20px;
         padding: 20px;
         margin: 20px;
     }
