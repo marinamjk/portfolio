@@ -29,7 +29,7 @@ h1{
 }
 
 .presentacion{
-    align-content: center;
+    display: block;
 }
 
 h2{
