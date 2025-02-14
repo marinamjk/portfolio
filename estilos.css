@@ -372,13 +372,12 @@ button:hover {
         display: flex;
         gap: 20px;
         flex-wrap: nowrap;
-        align-items: center;
         flex-direction: column;
         justify-content: center;
     }
     
     .fotoPerfil{
-        width: 30vw;
+        flex-basis: 30vw;
     }
 
     .contenedorConocimientos{
@@ -520,13 +519,12 @@ button:hover {
         display: flex;
         gap: 20px;
         flex-wrap: nowrap;
-        align-items: center;
+        justify-content: center;
         flex-direction: column;
-        
     }
     
     .fotoPerfil{
-        width: 30vw;
+        flex-basis: 30vw;
     }
 
     section {
