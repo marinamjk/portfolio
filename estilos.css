@@ -327,7 +327,7 @@ button:hover {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 24px;
+        font-size: 28px;
     }
 
     .subtitulo {
@@ -370,7 +370,7 @@ button:hover {
 
     .SobreMi{
         display: flex;
-        gap: 20px;
+        gap: 10px;
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
@@ -476,7 +476,7 @@ button:hover {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 26px;
+        font-size: 30px;
     }
 
     .subtitulo {
@@ -519,7 +519,7 @@ button:hover {
 
     .SobreMi{
         display: flex;
-        gap: 20px;
+        gap: 10px;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
