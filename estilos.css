@@ -604,6 +604,7 @@ button:hover {
 
     .tablaProyectos td {
         transition: background-color 0.3s ease;
+        width: 100%;
     }
     
     .tablaProyectos td:hover {
