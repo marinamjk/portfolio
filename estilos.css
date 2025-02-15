@@ -415,10 +415,12 @@ button:hover {
 
     #MisProyectos{
         width: 100vw;
-        justify-items: center;
+        display: flex;
+        justify-content: center;
     }
 
     .tablaProyectos{
+        display: inline-block;
         width: 100%;
         margin: 12px 12px;
         border-collapse: separate;
@@ -574,11 +576,14 @@ button:hover {
     }
 
     #MisProyectos{  
+        display: flex;
         width: 100vw;
-        justify-items: center;
+        justify-content: center;
+        
     }
 
     .tablaProyectos{
+        display: inline-block;
         width: 100%;
         margin: 12px 12px;
         border-collapse: separate;
