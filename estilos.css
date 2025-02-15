@@ -416,7 +416,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 12px auto;
+        margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: auto;
@@ -445,13 +445,13 @@ button:hover {
         color: black;
         padding: 0;
         text-align: left; 
-        flex: 1 1 auto;
+        flex: 1;
         overflow: hidden;
         box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 auto;
+        flex: 2;
         box-sizing: border-box;
     }
 
@@ -571,7 +571,7 @@ button:hover {
 
     .tablaProyectos{
         width: 100%;
-        margin: 12px auto;
+        margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: auto;
@@ -600,13 +600,13 @@ button:hover {
         color: black;
         padding: 0;
         text-align: left; 
-        flex: 1 1 auto;
+        flex: 1;
         overflow: hidden;
         box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 auto;        
+        flex: 2;        
         box-sizing: border-box;
     }
 
