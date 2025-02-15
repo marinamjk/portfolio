@@ -414,10 +414,10 @@ button:hover {
     }  
 
     .tablaProyectos{
-        width: 100%;
+        width: 100vw;
         margin: 12px 12px;
         border-collapse: separate;
-        border-spacing: 0px 5px;
+        border-spacing: 0px 6px;
         table-layout: fixed;
         box-sizing: border-box;
     }
@@ -433,7 +433,8 @@ button:hover {
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
-        overflow-wrap: break-word; 
+        overflow-wrap: break-word;
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td::before{
@@ -568,7 +569,7 @@ button:hover {
     }
 
     .tablaProyectos{
-        width: 100%;
+        width: 100vw;
         margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
@@ -588,6 +589,7 @@ button:hover {
         white-space: normal;
         word-wrap: break-word;
         overflow-wrap: break-word; 
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td::before{
