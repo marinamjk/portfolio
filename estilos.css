@@ -40,7 +40,6 @@ h1{
 }
 
 h2{
-    display: block !important;
     font-size: 22px;
     text-shadow: 2px 2px 5px rgba(94, 94, 94, 0.5);
     color: #000000;
