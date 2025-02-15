@@ -442,12 +442,12 @@ button:hover {
         color: black;
         padding: 0 10px 0 0;
         text-align: left; 
-        flex: 1 1 40%;
+        flex: 1;
         overflow: hidden;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 60%;
+        flex: 2;
     }
 
     .tablaProyectos th, td{
@@ -592,12 +592,12 @@ button:hover {
         color: black;
         padding: 0 10px 0 0;
         text-align: left; 
-        flex: 1 1 40%;
+        flex: 1;
         overflow: hidden;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 60%;
+        flex: 2;
     }
 
     .tablaProyectos th, td{
