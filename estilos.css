@@ -414,11 +414,11 @@ button:hover {
     }  
 
     .tablaProyectos{
-        width: auto;
-        margin: 5px 5px;
+        width: 100%;
+        margin: 0px auto;
         border-collapse: separate;
         border-spacing: 5px 0px;
-        table-layout: fixed;
+        table-layout: auto;
     }
 
     .tablaProyectos thead{
@@ -561,11 +561,11 @@ button:hover {
     }
 
     .tablaProyectos{
-        width: auto;
-        margin: 5px 5px;
+        width: 100%;
+        margin: 0px auto;
         border-collapse: separate;
         border-spacing: 5px 0px;
-        table-layout: fixed;
+        table-layout: auto;
     }
 
     .tablaProyectos thead{
