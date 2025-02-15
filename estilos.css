@@ -413,6 +413,11 @@ button:hover {
         align-content: flex-start;
     }  
 
+    #MisProyectos{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
+    }
 
     .tablaProyectos{
         width: 100%;
@@ -567,6 +572,12 @@ button:hover {
 
     .iconosConocimientos img{
         flex: 0 1 auto;
+    }
+
+    #MisProyectos{
+        display: flex;
+        width: 100vw;
+        justify-content: center;
     }
 
     .tablaProyectos{
