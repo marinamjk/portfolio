@@ -327,7 +327,7 @@ button:hover {
 
 @media (max-width: 480px) {
     h1 {
-        font-size: 28px;
+        font-size: 36px;
     }
 
     .subtitulo {
@@ -428,8 +428,7 @@ button:hover {
     .tablaProyectos tbody td{
         display: flex;
         justify-content: space-between;
-        align-items: stretch;
-        align-items: center;
+        align-items: flex-start;
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
@@ -476,7 +475,7 @@ button:hover {
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 30px;
+        font-size: 40px;
     }
 
     .subtitulo {
@@ -577,8 +576,7 @@ button:hover {
     .tablaProyectos tbody td{
         display: flex;
         justify-content: space-between;
-        align-items: stretch;
-        align-items: center;
+        align-items: flex-start;
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
