@@ -417,12 +417,9 @@ button:hover {
         align-content: flex-start;
     }  
 
-    #MisProyectos{  
-        width: 100%;
+    .ContenedorTablaProyectos{
         display: flex;
-        flex-direction: column;
-        align-content: center;
-        box-sizing: border-box; 
+        justify-content: center;
     }
 
     .tablaProyectos{
@@ -431,7 +428,6 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: fixed;
-        align-self: center;
         box-sizing: border-box;
     }
 
@@ -582,12 +578,9 @@ button:hover {
         flex: 0 1 auto;
     }
 
-    #MisProyectos{  
-        width: 100%;
+    .ContenedorTablaProyectos{
         display: flex;
-        flex-direction: column;
-        align-content: center;
-        box-sizing: border-box; 
+        justify-content: center;
     }
 
     .tablaProyectos{
@@ -596,7 +589,6 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: fixed;
-        align-self: center;
         box-sizing: border-box;
     }
 
