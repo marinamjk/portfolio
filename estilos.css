@@ -426,7 +426,7 @@ button:hover {
     }
     
     .tablaProyectos{
-        width: 100%;
+        width: calc(100%-24px);
         margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
@@ -589,7 +589,7 @@ button:hover {
     }
 
     .tablaProyectos{
-        width: 100%;
+        width: calc(100%-24px);
         margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
