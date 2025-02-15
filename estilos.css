@@ -427,8 +427,7 @@ button:hover {
 
     .tablaProyectos tbody td{
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: space-between;      
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
@@ -575,8 +574,7 @@ button:hover {
 
     .tablaProyectos tbody td{
         display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
+        justify-content: space-between; 
         text-align: left;
         white-space: normal;
         word-wrap: break-word;
