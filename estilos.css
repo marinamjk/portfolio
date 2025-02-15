@@ -414,7 +414,6 @@ button:hover {
     }  
 
     #MisProyectos{
-        display: flex;
         width: 100vw;
         justify-items: center;
     }
@@ -574,8 +573,7 @@ button:hover {
         flex: 0 1 auto;
     }
 
-    #MisProyectos{
-        display: flex;
+    #MisProyectos{  
         width: 100vw;
         justify-items: center;
     }
