@@ -440,7 +440,7 @@ button:hover {
         justify-content: space-between;       
         font-weight: bold;
         color: black;
-        padding: 0 10px 0 0;
+        padding: 0 5px 0 0;
         text-align: left; 
         flex: 1;
         overflow: hidden;
@@ -592,7 +592,7 @@ button:hover {
         justify-content: space-between;       
         font-weight: bold;
         color: black;
-        padding: 0 10px 0 0;
+        padding: 0 5px 0 0;
         text-align: left; 
         flex: 1;
         overflow: hidden;
