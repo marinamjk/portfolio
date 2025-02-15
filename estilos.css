@@ -431,6 +431,7 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: fixed;
+        align-self: center;
         box-sizing: border-box;
     }
 
@@ -594,6 +595,7 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: fixed;
+        align-self: center;
         box-sizing: border-box;
     }
 
