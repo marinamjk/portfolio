@@ -420,7 +420,7 @@ button:hover {
     }
 
     .tablaProyectos{
-        display: inline-block;
+        display: block;
         width: 100%;
         margin: 12px 12px;
         border-collapse: separate;
@@ -532,7 +532,7 @@ button:hover {
 
     .SobreMi{
         display: flex;
-        gap: 10px;
+        gap: 0px;
         flex-wrap: nowrap;
         justify-content: center;
         align-items: center;
@@ -583,7 +583,7 @@ button:hover {
     }
 
     .tablaProyectos{
-        display: inline-block;
+        display: block;
         width: 100%;
         margin: 12px 12px;
         border-collapse: separate;
