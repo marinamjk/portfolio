@@ -424,6 +424,7 @@ button:hover {
 
     .tablaProyectos thead{
         display: none;
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td{
@@ -442,13 +443,13 @@ button:hover {
         color: black;
         padding: 0;
         text-align: left; 
-        flex: 1 1 30%;
+        flex: 1 1 auto;
         overflow: hidden;
         box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 40%;
+        flex: 1 1 auto;
         box-sizing: border-box;
     }
 
@@ -577,6 +578,7 @@ button:hover {
 
     .tablaProyectos thead{
         display: none;
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td{
@@ -595,13 +597,13 @@ button:hover {
         color: black;
         padding: 0;
         text-align: left; 
-        flex: 1 1 20%;
+        flex: 1 1 auto;
         overflow: hidden;
         box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
-        flex: 1 1 40%;
+        flex: 1 1 auto;
         box-sizing: border-box;
     }
 
