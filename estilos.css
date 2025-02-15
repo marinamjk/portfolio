@@ -419,6 +419,7 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: auto;
+        box-sizing: border-box;
     }
 
     .tablaProyectos thead{
@@ -567,6 +568,7 @@ button:hover {
         border-collapse: separate;
         border-spacing: 0px 5px;
         table-layout: auto;
+        box-sizing: border-box;
     }
 
     .tablaProyectos thead{
