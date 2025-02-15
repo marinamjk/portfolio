@@ -421,7 +421,9 @@ button:hover {
     #MisProyectos{  
         width: 100%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
         box-sizing: border-box; 
     }
 
@@ -583,7 +585,9 @@ button:hover {
     #MisProyectos{  
         width: 100%;
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
         box-sizing: border-box; 
     }
 
