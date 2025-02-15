@@ -469,7 +469,7 @@ button:hover {
 
     .tablaProyectos th, td{
         border-spacing: 0px;
-        margin: 5px 0;
+        margin: 0px;
         padding: 5px;
         box-sizing: border-box;
     }
@@ -633,7 +633,7 @@ button:hover {
 
     .tablaProyectos th, td{
         border-spacing: 0px;
-        margin: 5px 0;
+        margin: 0px;
         padding: 5px;
         box-sizing: border-box;
     }
