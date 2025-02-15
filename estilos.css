@@ -420,6 +420,7 @@ button:hover {
     .ContenedorTablaProyectos{
         display: flex;
         justify-content: center;
+        align-content: space-around;
     }
 
     .tablaProyectos{
@@ -466,7 +467,7 @@ button:hover {
 
     .tablaProyectos th, td{
         border-spacing: 0px;
-        margin: 0px;
+        margin: 5px;
         padding: 5px;
         box-sizing: border-box;
     }
@@ -581,6 +582,7 @@ button:hover {
     .ContenedorTablaProyectos{
         display: flex;
         justify-content: center;
+        align-content: space-between;
     }
 
     .tablaProyectos{
@@ -627,7 +629,7 @@ button:hover {
 
     .tablaProyectos th, td{
         border-spacing: 0px;
-        margin: 0px;
+        margin: 5px;
         padding: 5px;
         box-sizing: border-box;
     }
