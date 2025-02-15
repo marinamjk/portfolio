@@ -414,12 +414,15 @@ button:hover {
     }  
 
     #MisProyectos{  
-        width: 100vw;
-        text-align: center;        
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        box-sizing: border-box; 
     }
     
     .tablaProyectos{
         width: 100%;
+        text-align: center;
         margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
@@ -574,12 +577,15 @@ button:hover {
     }
 
     #MisProyectos{  
-        width: 100vw;
-        text-align: center;        
+        width: 100%;
+        display: flex;
+        flex-direction: column;  
+        box-sizing: border-box; 
     }
 
     .tablaProyectos{
         width: 100%;
+        text-align: center;
         margin: 12px 12px;
         border-collapse: separate;
         border-spacing: 0px 5px;
