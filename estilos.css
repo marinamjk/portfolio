@@ -440,7 +440,7 @@ button:hover {
         justify-content: space-between;       
         font-weight: bold;
         color: black;
-        padding: 0 5px 0 0;
+        padding: 0;
         text-align: left; 
         flex: 1;
         overflow: hidden;
@@ -449,6 +449,7 @@ button:hover {
 
     .tablaProyectos tbody td span{
         flex: 2;
+        box-sizing: border-box;
     }
 
     .tablaProyectos th, td{
@@ -592,7 +593,7 @@ button:hover {
         justify-content: space-between;       
         font-weight: bold;
         color: black;
-        padding: 0 5px 0 0;
+        padding: 0;
         text-align: left; 
         flex: 1;
         overflow: hidden;
@@ -601,6 +602,7 @@ button:hover {
 
     .tablaProyectos tbody td span{
         flex: 2;
+        box-sizing: border-box;
     }
 
     .tablaProyectos th, td{
