@@ -444,6 +444,7 @@ button:hover {
         text-align: left; 
         flex: 1;
         overflow: hidden;
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
@@ -454,6 +455,7 @@ button:hover {
         border-spacing: 0px;
         margin: 5px 0;
         padding: 5px;
+        box-sizing: border-box;
     }
 
     .tablaProyectos td {
@@ -594,6 +596,7 @@ button:hover {
         text-align: left; 
         flex: 1;
         overflow: hidden;
+        box-sizing: border-box;
     }
 
     .tablaProyectos tbody td span{
@@ -604,6 +607,7 @@ button:hover {
         border-spacing: 0px;
         margin: 5px 0;
         padding: 5px;
+        box-sizing: border-box;
     }
 
     .tablaProyectos td {
