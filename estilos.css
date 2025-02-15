@@ -459,6 +459,7 @@ button:hover {
     .tablaProyectos td {
         transition: background-color 0.3s ease;
         width: 100vw;
+        box-sizing: border-box;
     }
     
     .tablaProyectos td:hover {
@@ -607,7 +608,7 @@ button:hover {
 
     .tablaProyectos td {
         transition: background-color 0.3s ease;
-        width: 100vw;
+        box-sizing: border-box;
     }
     
     .tablaProyectos td:hover {
