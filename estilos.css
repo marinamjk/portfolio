@@ -370,7 +370,7 @@ button:hover {
 
     .SobreMi{
         display: flex;
-        gap: 10px;
+        gap: 0px;
         flex-wrap: nowrap;
         flex-direction: column;
         justify-content: center;
@@ -414,7 +414,7 @@ button:hover {
     }  
 
     .tablaProyectos{
-        width: 100%;
+        width: auto;
         margin: 5px 5px;
         border-collapse: separate;
         border-spacing: 5px 0px;
@@ -561,7 +561,7 @@ button:hover {
     }
 
     .tablaProyectos{
-        width: 100%;
+        width: auto;
         margin: 5px 5px;
         border-collapse: separate;
         border-spacing: 5px 0px;
