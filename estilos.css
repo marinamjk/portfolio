@@ -12,6 +12,15 @@ body, html {
     scroll-behavior: smooth;
 }
 
+#languageSwitcher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    padding: 5px;
+    font-size: 1rem;
+  }
+
 h1{
     font-family: "Charmonman", serif;
     font-weight: 400;
@@ -255,6 +264,8 @@ footer{
     border: 1px solid #ffffff;
     color: #ffffff;
     background-color: #a34177;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     padding: 10px;
     text-align: center;
 }
@@ -263,17 +274,11 @@ footer{
     border: 1px solid #ffffff;
     padding: 10px;
     background-color: #ffffff;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
     color: rgb(0, 0, 0);
     text-align: left;
     width: 30%;
-}
-
-.tablaProyectos td {
-    transition: background-color 0.3s ease;
-}
-
-.tablaProyectos td:hover{
-    background: radial-gradient(ellipse farthest-corner, white, rgb(185, 185, 185));
 }
 
 .contenedorFormulario {

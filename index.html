@@ -12,26 +12,30 @@
 <body>
     <header>
         <section class="FondoMovimiento presentacion">
+            <select id="languageSwitcher">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+              </select>
             <h1>
                 Marina Mojica              
             </h1>
-            <h2 class="subtitulo">Portfolio Personal </h2>
+            <h2 class="subtitulo" data-es="Portfolio Personal" data-en="Personal Portfolio">Portfolio Personal </h2>
         </section>
        
         <nav class="navbar">
             <button class="menu-btn" onclick="toggleMenu()">☰</button>
             <ul id="menu">
-              <li><a href="#AcercaDeMi">Acerca De Mi</a></li>
-              <li><a href="#Conocimientos">Conocimientos</a></li>
-              <li><a href="#MisProyectos">Mis Proyectos</a></li>
-              <li><a href="#OtrosEstudios">Otros Estudios</a></li>
-              <li><a href="#Contacto">Contacto</a></li>
+              <li><a href="#AcercaDeMi" data-es="Acerca De Mi" data-en="About Me">Acerca De Mi</a></li>
+              <li><a href="#Conocimientos" data-es="Conocimientos" data-en="Skills">Conocimientos</a></li>
+              <li><a href="#MisProyectos" data-es="Mis Proyectos" data-en="My Projects">Mis Proyectos</a></li>
+              <li><a href="#OtrosEstudios" data-es="Otros Estudios" data-en="Other Studies">Otros Estudios</a></li>
+              <li><a href="#Contacto" data-es="Contacto" data-en="Contact">Contacto</a></li>
             </ul>
           </nav>
     </header>
     <main>
         <section id="AcercaDeMi" class="sBlanco">
-             <h2>
+             <h2 data-es="Acerca De Mi" data-en="About Me">
                  ACERCA DE MI
             </h2>
             <div class="SobreMi">
@@ -39,9 +43,18 @@
                     <img class="fotoPerfil" src="FotoPerfil.jpg" alt="FotoMarina">
                 </div>
                 <div>
-                    <p>                    
+                    <p data-es="Actualmente estoy cursando el último cuatrimestre de la Tecnicatura Universitaria en Programación dictada por la UTN, regional de Pacheco. Previamente a esta carrera, 
+                        había realizado el curso Argentina Programa 4.0, dictado por la Universidad de La Punta, que me incentivó a profundizar estos conocimientos. <br>
+                        Durante este trayecto, adquirí las herramientas y la lógica necesaria para poder programar sobre una base sólida y poder aplicarlo en diferentes tipos de software. 
+                        Además de los conocimientos técnicos, a lo largo de este trayecto también he desarrollado habilidades blandas importantes, como el trabajo en equipo, la resolución de problemas
+                         y la adaptabilidad a nuevas tecnologías. Por eso mismo, estoy enfocada en seguir profundizando en el desarrollo full stack y empezar mi experiencia laboral en este rubro."
+                        data-en="I'm currently in the last semester of the University Technician in Programming at UTN, Pacheco regional. Before this degree, I completed the 'Argentina Programa 4.0' 
+                        course offered by the University of La Punta, which encouraged me to improve my knowledge. <br>Throughout this journey, I acquired tools and logic in order to program on a solid foundation 
+                        and apply it to different types of software. <br>In addition to technical
+                         skills, I also developed important soft skills like teamwork, problem-solving, and adaptability to new technologies. That's why I'm focused on deepening my full stack development knowledge 
+                         and starting my professional experience in the field.">                     
                         Actualmente estoy cursando el último cuatrimestre de la Tecnicatura Universitaria en Programación dictada por la UTN, regional de Pacheco. Previamente a esta carrera, había realizado el curso "Argentina Programa 4.0", dictado por la Universidad de La Punta, que me incentivó a profundizar estos conocimientos. <br>
-                        Durante este trayecto, adquirí las herramientas y la lógica necesaria para poder programar sobre una base sólida y poder aplicarlo en diferentes tipos de software. Para esto, aprendí que es vital la utilización de los lenguajes de programación de forma organizada, eficiente y escalable. <br>
+                        Durante este trayecto, adquirí las herramientas y la lógica necesaria para poder programar sobre una base sólida y poder aplicarlo en diferentes tipos de software. <br>
                         Además de los conocimientos técnicos, a lo largo de este trayecto también he desarrollado habilidades blandas importantes, como el trabajo en equipo, la resolución de problemas y la adaptabilidad a nuevas tecnologías. Por eso mismo, estoy enfocada en seguir profundizando en el desarrollo full stack y empezar mi experiencia laboral en este rubro.
                     </p>
                 </div> 
@@ -49,10 +62,10 @@
         </section>
         <section id="Conocimientos" class="FondoMovimiento alinear">
                 <div class="contenedorConocimientos">
-                    <h2>
+                    <h2 data-es="CONOCIMIENTOS" data-en="Skills">
                         CONOCIMIENTOS
                     </h2>
-                    <h3>
+                    <h3 data-es="Lenguajes de Programación:" data-en="Programming Languages:">
                         Lenguajes de Programación: 
                     </h3>
                     <div class="iconosConocimientos">
@@ -69,7 +82,7 @@
                         <img src="netbeans.png" alt="Netbeans" title="Net Beans">
                         <img src="Codeblocks.png" alt="Codeblocks" title="CodeBlocks">
                     </div>
-                    <h3>
+                    <h3 data-es="Otros: " data-en="Others: ">
                         Otros:
                     </h3>
                     <div class="iconosConocimientos">
@@ -79,38 +92,44 @@
                 </div>                      
         </section>
         <section id="MisProyectos" class="sMisProyectos">
-                <h2>
+                <h2 data-es="MIS PROYECTOS" data-en="MY PROJECTS">
                     MIS PROYECTOS
                 </h2>
                 <div class="ContenedorTablaProyectos">
                 <table class="tablaProyectos">
                     <thead>
                         <tr>
-                            <th id="1">GESTIÓN DE PRODUCTOS</th>
-                            <th id="2"> CABEZONES</th>
-                            <th id="3">PAGINA WEB</th>
+                            <th id="1" data-es="GESTIÓN DE PRODUCTOS" data-en="PRODUCT MANAGEMENT">GESTIÓN DE PRODUCTOS</th>
+                            <th id="2" data-es="VIDEIOJUEGO" data-en="VIDEO GAME">VIDEOJUEGO</th>
+                            <th id="3" data-es="PAGINA WEB" data-en="WEB PAGE">PAGINA WEB</th>
                         </tr>
                     </thead>      
                     <tbody>
                         <tr>
                             <td headers="1" data-field="Gestión de Productos">
-                                <span>
-                                    Aplicación de escritorio realizada con Winform en C#.
-                                    <a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">Ver mas...</a>
+                                <span
+                                    data-es='Aplicación de escritorio realizada con Winform en C#. <a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">Ver más...</a>' 
+                                    data-en='Desktop application developed with WinForms in C#. <a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">See more...</a>'>
+                                    Aplicación de escritorio realizada con Winform en C#. 
+                                    <a href="https://github.com/marinamjk/tp-winform-equipo-15B" target="_blank">Ver más...</a>
                                 </span>
                            
                             </td>
                             <td headers="2" data-field="Cabezones">
-                                <span>
+                                <span 
+                                    data-es='Videojuego multijugador de fútbol realizado en C++, junto con las librerías SFML y Box2D y empleando manejo de archivos. <a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">Ver más...</a>' 
+                                    data-en='Multiplayer soccer video game developed in C++ using SFML and Box2D libraries, with file handling. <a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">See more...</a>'>
                                     Videojuego multijugador de fútbol realizado en C++, junto con las librerías SFML y Box2D y empleando manejo de archivos.
-                                    <a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">Ver mas...</a>
-                                </span>    
+                                    <a href="https://github.com/marinamjk/AppCabezones/tree/main" target="_blank">Ver más...</a>
+                              </span> 
                             </td>
                             <td headers="3" data-field="Página Web">
-                                <span>
-                                    Ecommerce realizado con .Net Framework utilizando HTML, CSS, JavaScript y C#.
-                                    <a href="https://github.com/marinamjk/TP-Cuatrimestral-Equipo-15B" target="_blank">Ver mas...</a>
-                                </span>  
+                                <span 
+                                    data-es='Ecommerce realizado con .Net Framework utilizando HTML, CSS, JavaScript y C#. <a href="https://github.com/marinamjk/TP-Cuatrimestral-Equipo-15B" target="_blank">Ver más...</a>' 
+                                    data-en='E-commerce built with .Net Framework using HTML, CSS, JavaScript, and C#. <a href="https://github.com/marinamjk/TP-Cuatrimestral-Equipo-15B" target="_blank">See more...</a>'>
+                                    Ecommerce realizado con .Net Framework utilizando HTML, CSS, JavaScript y C#. 
+                                    <a href="https://github.com/marinamjk/TP-Cuatrimestral-Equipo-15B" target="_blank">Ver más...</a>
+                                </span>
                             </td>
                         </tr>
                     </tbody>
@@ -118,23 +137,32 @@
                 </div>            
         </section>
         <section id="OtrosEstudios" class="sBlanco">
-            <h2>
+            <h2 data-es="OTROS ESTUDIOS"
+                data-en="Others Studies">
                 OTROS ESTUDIOS
             </h2>
-            <p>
+            <p
+                data-es="Soy Profesora en Educación Física, recibida en la Universidad Nacional de Luján con Diploma de Honor. Tengo experiencia en los distintos niveles de enseñanza escolares, así como, en el ámbito no formal. Trabajé principalmente en clubes y polideportivos, donde me especialicé en la enseñanza de natación a grupos
+                de distintas edades y capacidades. Esto me permitió desarrollar habilidades sociales, manejo de grupos y adaptación a diferentes circunstancias."
+                data-en="I am a Physical Education teacher, graduated with honors from the National University of Luján. I have experience teaching at all school levels as well as in non-formal settings. I mainly worked in sports clubs and community centers, where I specialized in teaching swimming to groups of various ages and abilities. 
+                This allowed me to develop strong social skills, group management, and adaptability to different situations.">
                 Soy Profesora en Educación Física, recibida en la Universidad Nacional de Luján con Diploma de Honor. Tengo experiencia en los distintos niveles de enseñanza escolares, así como, en el ámbito no formal. Trabajé principalmente en clubes y polideportivos, donde me especialicé en la enseñanza de natación a grupos
                 de distintas edades y capacidades. Esto me permitió desarrollar habilidades sociales, manejo de grupos y adaptación a diferentes circunstancias.
             </p>
             <div>
-                <p>
-                    <span style="text-decoration: underline;">Idiomas:</span> <br>
-                    Ingles nivel upper-intermediate.
-                </p>
+                <p 
+                data-es='<span style="text-decoration: underline;">Idiomas:</span> <br>Inglés nivel upper-intermediate.' 
+                data-en='<span style="text-decoration: underline;">Languages:</span> <br>Upper-intermediate level English.'>
+                <span style="text-decoration: underline;">Idiomas:</span> <br>
+                Inglés nivel upper-intermediate.
+              </p>
             </div>         
         </section>
     </main>
     <footer id="Contacto">
-        <h2 class="fteBlanco">
+        <h2 class="fteBlanco" 
+            data-es="CONTACTO"
+            data-en="CONTACT">
             CONTACTO
         </h2>
         <div>
@@ -145,22 +173,23 @@
             <div class="contenedorFormulario">
                 <form id="form" action="https://formspree.io/f/mdknrzov" method="POST">
                     <div class="form-group">
-                        <label for="name">Nombre:</label>
+                        <label for="name" data-es="Nombre:" data-en="Name:">Nombre:</label>
                         <input type="text" id="name" name="name" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Correo Electrónico:</label>
+                        <label for="email" data-es="Correo Electrónico" data-en="Email:">Correo Electrónico:</label>
                         <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Mensaje:</label>
+                        <label for="message" data-es="Mensaje:" data-en="Message:">Mensaje:</label>
                         <textarea id="message" name="message" rows="5" required></textarea>
                     </div>
-                    <button type="submit">Enviar</button>
+                    <button type="submit" data-es="Enviar" data-en="Submit">Enviar</button>
                 </form>
             </div>
         </form>     
     </footer>
     <script src="codigo.js"></script>
+    <script src="scriptIdioma.js"></script>
 </body>
 </html>
